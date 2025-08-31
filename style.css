@@ -1,0 +1,90 @@
+
+    /* Navbar */
+    nav {
+      background-color: #004080; 
+    }
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url("p2.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero .btn {
+      background-color:pink;
+      border: none;
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #004080;
+      border-radius: 8px;
+    }
+    .hero .btn:hover {
+      background-color:red;
+    }
+
+    /* Packages */
+    #packages {
+      margin: 60px 0;
+    }
+    
+    
+    .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+     width: 1490px;
+     
+    }
+    .card:hover {
+      transform: scale(1.05);
+      
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+      background-size: cover;
+      
+    }
+    .card-title {
+      color: #004080;
+      font-weight: bold;
+    }
+    .card .btn {
+      background-color:cadetblue;
+      border: none;
+      padding: 8px 20px;
+      font-weight: bold;
+    }
+    .card .btn:hover {
+      background-color:burlywood;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    .list{
+      text-align: left;
+    }
+  
